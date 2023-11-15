@@ -193,15 +193,23 @@ header
         font-weight: 700;
         margin-bottom: 60px;
     }
+    .mini_block_title
+    {
+        width:100%;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        
+    }
     .mini_list_items
     {
         margin-top: 30px;
         margin-bottom: 30px;
-        font-size: 30px;
+        font-size: 45px;
     }
     #mini_block_summary
     {
-        font-size: 35px;
+        font-size: 50px;
         font-weight: 700;
         margin-bottom: 60px;
         text-align: center;
