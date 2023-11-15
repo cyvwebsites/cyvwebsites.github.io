@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "CSS\project_one_style.css">
+</head>
+<body>
+    <header>
+        <img id = "image_home_button"  src="images\home_icon.png" onclick="go_home()">
+    </header>
+    <div id = "project_title"></div>
+    <div id = "left_side_container">
+        <img id = "snap_left_image_one"  src="images\review_image_two.png">
+        <div id = "visit_page_button" onclick="go_to_project()">Visit Website</div>
+    </div>
+    <div id = "right_side_container">
+        <div id = "inner_right_side_container_one">
+            <div id = "mini_block_summary">
+                Created a reviews website from scratch(no framework), using php, MySQL and AWS.                  
+            </div>
+            <div class = "mini_block">
+                <div class = "mini_block_title">Security</div>
+                <ul>
+                    <li class = "mini_list_items">
+                        Set up secure connection(https,SSL Certificate,port 443)
+                    </li>
+                    <li class = "mini_list_items" >
+                        Implemented my own security for XSS, SQL injection, CSRF and Session Hijacking.
+                    </li>
+                    <li class = "mini_list_items" >
+                        Pen Tested website using OWASP ZAP, from a general user to admin
+                    </li>
+                </ul>
+            </div>
+            <div class = "mini_block">
+                <div class = "mini_block_title">Back-end</div>
+                <ul>
+                    <li class = "mini_list_items">
+                        Designed, implemented, developed and configured mySQL database
+                    </li>
+                    <li class = "mini_list_items" >
+                        Manipulated data in database using INSERT, DELETE, SELECT and UPDATE statements using php
+                    </li  >
+                    <li class = "mini_list_items" >
+                        Setup mySQL database on AWS using Amazon Relational Database Service(RDS)
+                    </li  >
+                </ul>
+            </div>
+            <div id = "mini_block_two"></div>
+            
+            
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="JS/project_one_script.js"></script>
+</html>
