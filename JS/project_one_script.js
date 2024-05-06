@@ -15,7 +15,7 @@ function go_home()
 function go_to_project()
 {
     'use strict';
-    window.location.href = 'https://testingdacode.com/';
+   
 }
 
 //Function used to make website work with whatever screen/browser width is used
