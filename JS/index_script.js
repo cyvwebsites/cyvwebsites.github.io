@@ -16,7 +16,7 @@ function go_to_linkein()
 function button_one()
 {
     'use strict';
-    window.location.href = 'project_one.html';
+    window.location.href = 'project_one';
 }
 //function called when middle button is called, which will go to the designated page
 // to show the projects
