@@ -37,7 +37,7 @@ function button_three()
 function button_four()
 {
     'use strict';
-    window.location.href = 'project_four.html';
+    window.location.href = 'spa/';
 }
 
 //Function used to make website work with whatever screen/browser width is used
